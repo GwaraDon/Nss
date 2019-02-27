@@ -1,0 +1,58 @@
+#popular-category {
+  margin-bottom: 40px;
+  position: relative;
+  h3 {
+    padding: 20px 10px 10px;
+    color: $dblue;
+    display: inline-block;
+    //font-size: 24px;
+  }
+ hr{
+   margin-top: 0;
+   border-top: 4px double #e5e5e5;
+   line-height: 2px;
+ }
+
+  .popular-category-tabs {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    li {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  .popular-category {
+    .category {
+      .category--slider {
+        background: white;
+      }
+    }
+    #nav-Laptops
+    {
+      .category--slider .owl-carousel .owl-nav.disabled{
+
+        display: block;
+      }
+    }
+  }
+  .nav-pills>li a{
+    border-bottom: 2px solid transparent;
+    transition: ease 0.3s;
+    margin-bottom: -2px;
+    color: #333;
+  }
+  .nav-pills>li a.active{
+    color: $dred;
+    background-color: #fff;
+    border-radius: 0;
+    border-bottom: 2px solid $dred;
+
+
+  }
+  .nav-pills>li
+  {
+    background: white;
+    border: none;
+  }
+}

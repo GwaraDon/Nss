@@ -1,0 +1,50 @@
+html{
+  font-size: 1rem;
+}
+//.container-fluid{
+//  padding:0;
+//}
+.row{
+  margin:0;
+}
+.nav-tabs {
+  a {
+    @extend %capital;
+  }
+}
+
+img{
+  height:100%;
+  width:100%;
+}
+//.container-fluid{
+//  padding: 10px;
+//}
+//slider overwrite
+.owl-theme .owl-nav {
+  margin-top: 0;
+}
+
+.uk-slideshow-items{
+  height:81vh!important;
+}
+.uk-card-default{
+  padding:0;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+  //margin-top:0;
+  margin-bottom:10px;
+  //color:$lb;
+  a{
+    //color:$lb;
+  }
+}
+.btn.btn-danger{
+  background: $dred!important;
+  border-color: $dred!important;
+  outline:none;
+
+}

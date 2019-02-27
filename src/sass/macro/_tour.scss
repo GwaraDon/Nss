@@ -1,0 +1,68 @@
+.single_tour_page {
+
+    .slick-slider_elements {
+      padding: 20px;
+      box-shadow: 0 1px 7px 0 #ccc;
+      .slider {
+        i .fa-chevron-left .slick-arrow {
+          position: absolute;
+          top: 50%;
+          left: -5px;
+        }
+        i .fa-chevron-right .slick-arrow {
+          position: absolute;
+          top: 50%;
+          right: -5px;
+        }
+
+
+    }
+      .slider-nav-thumbnails{
+        .slick-slide{
+          border: 1px solid white;
+        }
+      }
+  }
+
+
+  .single-tour-tabs{
+    padding: 20px 0;
+    .nav-tabs .nav-link.active {
+
+      color: #fcfdff;
+      background-color: $dred;
+      border-color: $dred;
+
+    }
+    .nav-link {
+      padding: 15px 30px;
+      font-weight: 500;
+      margin-right: 2px;
+      border-color: #e9ecef #e9ecef #dee2e6;
+    }
+    .tab-content{
+      padding: 20px;
+      border: 1px solid $dred;
+     h2,p{
+       margin-bottom: 10px;
+     }
+      i{
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .booking-form{
+    box-shadow: 0 1px 7px 0 #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+  }
+  .related-places{
+    &:hover{
+      box-shadow: 0 2px 10px 0 #ccc;
+    }
+  }
+
+}

@@ -1,0 +1,66 @@
+.check-out form {
+  margin-bottom: 2rem;
+  line-height: 2;
+
+}
+
+.check-out .checkout-button {
+  background: $dblue;
+  color: white;
+  margin-top: 10px;
+  border-color: $dblue;
+  border-radius: 0;
+  width: 100%;
+
+}
+
+.check-out{
+  .deliver__address{
+    box-shadow: 0px 1px 8px 0px #cbcbcb;
+  }
+  h2{
+
+    text-align: center;
+    margin-top: 20px;
+    color: $dblue;
+  }
+  .group{
+      margin-bottom: 10px;
+  }
+  .add-address{
+    label{
+      font-weight: 600;
+      margin: 0px;
+    }
+    input{
+      border-radius: 0;
+      //border: none;
+      //border-bottom: 1px solid #3333;
+
+      &:focus, &:active{
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+#check-out{
+
+padding: 20px 0;
+  .card{
+    box-shadow: 0 1px 8px 0 #cbcbcb;
+
+  .card-header{
+    color: #ffffff!important;
+    background-color: $dblue!important;
+    border-color: #cbcbcb!important;
+    a{
+      color: #fff!important;
+    }
+  }
+  }
+}
+
+// ======================================================================
+//END CSS FOR  CHECKOOUT PAGE
+//=======================================================================

@@ -1,0 +1,97 @@
+
+.accountpage .main #primary-sidebar {
+background-color: #f7f7fa;
+padding: 10px;
+  .nav-tabs .nav-item {
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: 5px;
+  }
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: none;
+  }
+  .nav-item.uk-active{
+    background: #fff;
+  }
+  @media screen and (max-width:767px) {
+.uk-tab{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow-x: auto;
+  white-space: nowrap;
+
+}
+
+
+  }
+  .become_seller{
+    padding: 30px   0 0 30px;
+    a{
+      color: #666;
+      &:hover{
+        color: #00bcd4;
+      }
+    }
+  }
+}
+.accountpage .main #primary-sidebar .block-title {
+display: block;
+color: #333;
+margin: 0px 0px 15px 0px;
+padding: 24px 0;
+font-size: 1.2rem;
+font-weight: 600;
+border-bottom: 1px solid #e2e5f1; }
+#my-account {
+background-color: #ffffff;
+  .link{
+    color: #00bcd4;
+  }
+.card.panel-section{
+  .card-header{
+    display: flex;
+    justify-content: space-between;
+    background: $dblue;
+    color: white;
+    a{
+      color: #ffffff;
+    }
+  }
+
+}
+}
+#my_orders{
+
+  td.order-image {
+    width: 150px;
+    height: 100px;
+  }
+  .order-details{
+    width: 400px;
+  }
+  .order-status{
+    width: 100px;
+  }
+  td{
+    vertical-align:middle;
+  }
+
+
+}
+#modalChangeForm{
+  outline: 0;
+  letter-spacing: 1px;
+  font-family: $font;
+  .input-group-text{
+    background-color: #fff!important;
+  }
+}
+.btn-success{
+  color: #ffffff!important;
+}

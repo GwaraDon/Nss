@@ -1,0 +1,131 @@
+
+
+.vendor-registerpage-container{
+
+
+  .uk-input:focus, .uk-select:focus, .uk-textarea:focus {
+    outline: 0;
+    background-color: $dblue;
+    color: #fff;
+    border-color: #e5e5e5;
+  }
+  .uk-input, .uk-select, .uk-textarea {
+    max-width: 100%;
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: $dblue;
+    color: #666;
+    transition: .2s ease-in-out;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .uk-form-label {
+
+    color: #fff;
+    font-size: .875rem;
+
+  }
+.register-benefits{
+  padding: 20px 0;
+  h3{
+    text-align: center;
+    color: #ed1b2f;
+    border-bottom: 2px solid #3333;
+  }
+  ol{
+    list-style: decimal;
+    display: grid;
+    margin-left:15px;
+    grid-template-columns: auto auto ;
+    grid-gap:20px;
+    li{
+      padding: 20px;
+
+      font-size: 16px;
+
+    }
+
+  }
+  ul>li{
+    .uk-icon{
+      color: #ed1b2f;
+    }
+  }
+}
+ .input-cart {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 15.48px 2.52px rgba(137, 137, 137, 0.1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background:$dblue;
+   .btn-success{
+     color: #ffffff!important;
+   }
+  }
+  .sign-up-form {
+    display: block;
+    margin-bottom: 20px;
+   .title_register h3{
+     text-align: center;
+     color: #ffffff;
+     padding-top: 10px;
+   }
+
+  }
+  .policy{
+    visibility:visible;
+    input[type='checkbox']{
+    margin-left: 5px;
+  }
+  }
+
+  .legal{
+    display: inline-block;
+    color: white;
+    a{
+      color: #00bcd4;
+    }
+    margin: 0 10px 10px;
+  }
+  .detailForm{
+    display:none;
+    margin: 25px 0 20px 0;
+    button.uk-button.button-select {
+      background-color: #ffffff;
+    }
+  }
+  .returning-vendor{
+    padding:10px;
+    display:inline-block;
+    text-align: center;
+    color: $dblue;
+
+   text-transform: uppercase;
+    background: white;
+  }
+}
+
+.option_to_add_VAT{
+  .toggle{
+    margin-left:15px;
+  }
+  .toggle-group{
+    label.btn{
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .toggle.android { border-radius: 0px;}
+  .toggle.android .toggle-handle { border-radius: 0px; }
+}
+
+#trackoder{
+  form legend.uk-legend{
+    @media screen and (max-width:768px){
+      font-size: 1rem;
+    }
+  }
+}

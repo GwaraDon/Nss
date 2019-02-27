@@ -1,0 +1,45 @@
+.testimonial{
+  background: $dred;
+  padding: 50px;
+  color: white;
+position: relative;
+  @media screen and (max-width:425px) {
+  padding: 25px;
+
+  }
+
+  .circle{
+    &:after{
+      content: '';
+      height: 45px;
+      width: 90px;
+      margin: 0 1rem 1rem 0;
+      display: inline-block;
+      border-bottom-left-radius:45px;
+      border-bottom-right-radius:45px;
+      background: white;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+  .meta-tags{
+    color: white;
+    position: relative;
+    margin: 0 5px;
+    &:hover{
+      color: $dblue;
+    }
+    //&:after{
+    //  content:'/' ;
+    //  position: absolute;
+    //  top:0;
+    //  margin-left: 5px;
+    //  &:hover{
+    //    color: white;
+    //  }
+    //
+    //}
+  }
+}

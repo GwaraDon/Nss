@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 14px;
+	//background: #f2f6f9;
+	color: #666;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $head;
+	margin: 0;
+}
+
+ul,
+p,
+ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+figure {
+	margin: 0;
+}
+
+.icon-tick--on {
+	color: #47cd4f;
+}
+
+.icon-tick--off {
+	color: #ff664b;
+}
+.border_bottom {
+	border-bottom: 1px solid rgba(0,0,0,0.33) !important;
+	padding-bottom: 5px;
+	margin: 0 0 10px;
+}
+// ======================================================================
+//START CSS FOR  CUSTOM SCROLL BARS
+//=======================================================================
+.scrollbar {
+
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+
+.mCSB_dragger_bar {
+	background: $dred !important;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+
+	background-color: $dred;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background-color: #F5F5F5;
+}
+
+
+// ======================================================================
+//END CSS FOR CUSTOM SCROLL BAR
+//=======================================================================
+.view-cart{
+	background-color: #1b2733e6;
+	color: white!important;
+	border-radius: 0;
+padding: 0px 10px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+	transition: .3s ease-out;
+	letter-spacing: .5px;
+	&:hover{
+		background: $dblue;
+		box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
+	}
+	@media screen and (max-width:375px){
+		font-size: 11px;
+	}
+
+}
+.checkout {
+	float: right;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+	transition: .3s ease-out;
+padding: 0 10px;
+	background-color: $dred;
+	border-color:$dred;
+	color: white!important;
+	border-radius: 0;
+	&:hover{
+		background: $dred;
+		box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
+	}
+	@media screen and (max-width:375px){
+		font-size: 11px;
+	}
+}
+
+//css for advertisement
+.three-columns{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	.column{
+		height: 180px;
+		img{
+			height: auto;
+		}
+	}
+}
+
+
+// ======================================================================
+//START CSS FOR  CUSTOM SCROLL BARS
+//=======================================================================
+.scrollbar {
+
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.social-icons{
+	display: flex;
+	li:first-child{
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.social-icon{
+		display: inline-block;
+		margin: 0 4px 8px;
+		a{
+			//color: #d4d4d4;
+			font-size: 24px;
+			padding: 5px;
+
+			border-radius: 50%;
+
+			width: 35px;
+
+			height: 35px;
+
+			background: #fefefe;
+
+			text-align: center;
+		}
+		a.facebook{
+
+			color:#3b5999;
+		}
+		a.google-plus{
+
+			color: #dd4b39;
+		}
+		a.twitter{
+			color:     #55acee;
+
+		}
+		a.linked-in{
+
+			color: #0077B5;
+		}
+	}
+}
+
+// ======================================================================
+//END CSS FOR CUSTOM SCROLL BAR
+//=======================================================================

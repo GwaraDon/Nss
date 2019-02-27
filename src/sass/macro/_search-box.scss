@@ -1,0 +1,24 @@
+
+.slider-tour-booking{
+  .container{
+    margin-top: -100px;
+    position: relative;
+    background-color: white;
+    z-index: 99;
+  }
+  #tourBookingForm{
+
+      @media screen and (max-width: 767px)
+      {
+        .form-table{
+        display: block!important;
+      }
+        .form-field{
+          margin-bottom: 5px;
+        }
+    }
+  }
+
+
+
+}
